@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new journal</title>
+    <link href="create.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>오늘의 일기</h1>
+<form id="writeFrm" action="" method="post">
+    <div>오늘은 몇 월 며칠: <input type="date" name="date"></div>
+    <div>오늘의 날씨</br></br>
+        <input type="radio" id="weather1" name="weather" value="1">
+        <img src="sun.png">
+        <input type="radio" id="weather2" name="weather" value="2">
+        <img src="cloudy.png"></br>
+        <input type="radio" id="weather3" name="weather" value="3">
+        <img src="snow.png">
+        <input type="radio" id="weather4" name="weather" value="4">
+        <img src="rain.png"></br>
+    </div>
+    <div>오늘의 한 줄: <input type="text" name="text" /></div>
+</form>
+<input type="submit" value="저장하기">
+<button class="my_btn" onClick="location.href='home.html'">
+    뒤로가기
+</button>
+</body>

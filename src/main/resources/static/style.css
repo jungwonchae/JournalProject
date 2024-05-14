@@ -1,0 +1,30 @@
+* {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    >img{
+        margin-bottom: -20px;
+        width:90px;
+        height:90px;
+    }
+}
+
+.my_btn {
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #bad69c;
+    color: white;
+    cursor: pointer;
+}

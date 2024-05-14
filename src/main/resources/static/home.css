@@ -1,0 +1,45 @@
+* {
+    font-family: "Nanum Gothic Coding", monospace;
+    box-sizing: border-box;
+}
+
+.container .header{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container .header h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.container .nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.container .nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.container .nav ul li:hover a{
+    color: #bad69c;
+}
+
+caption {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Bagel Fat One", system-ui;
+    font-style: normal;
+    font-size: 30px;
+    color: #bad69c;
+}
+table, th{
+    margin:auto;
+    border-spacing: 30px;
+}

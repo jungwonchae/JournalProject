@@ -1,0 +1,60 @@
+h1{
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 900;
+    font-style: normal;
+}
+
+form{
+    font-family: "Nanum Gothic Coding", monospace;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    color: #bad69c;
+}
+
+#writeFrm div{
+    margin-bottom: 40px;
+
+    >img{
+        margin-top: 30px;
+        width:70px;
+        height:70px;
+    }
+}
+
+.body text{
+    width: 300px;
+}
+
+input[type="submit"]{
+    padding: 10px 20px;
+    font-size: 10px;
+    background-color: #bad69c;
+    font-family: "Nanum Gothic Coding", monospace;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.my_btn{
+    padding: 10px 20px;
+    font-size: 10px;
+    background-color: white;
+    font-family: "Nanum Gothic Coding", monospace;
+    border-radius: 10px;
+    border: 1px solid #bad69c;
+    color: #bad69c;
+    margin-top: 10px;
+    cursor: pointer;
+}
